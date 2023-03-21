@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+/* 네비게이션 바 스타일 */
+header {
+    background-color:#ccc
+/* 네비게이션 바 높이와 여백 설정 */
+height: 60px;
+padding: 10px 20px;
+opacity: 20;
+}
+
+nav {
+/* 네비게이션 바에서 리스트 스타일 제거 */
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul {
+/* 네비게이션 바에서 리스트 아이템들을 가로로 나열 */
+display: flex;
+align-items: center;
+height: 100%;
+}
+
+nav li {
+/* 네비게이션 바에서 리스트 아이템들의 여백 설정 */
+margin-right: 20px;
+}
+
+nav li:last-child {
+/* 마지막 리스트 아이템 오른쪽 여백 제거 */
+margin-right: 0;
+}
+
+nav a {
+/* 네비게이션 바 링크 스타일 */
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+text-transform: uppercase;
+transition: all 0.3s ease;
+}
+
+nav a:hover {
+/* 네비게이션 바 링크 호버 스타일 */
+color: #ccc;
+}
+
+/* 소개 섹션 스타일 */
+#about-me {
+padding: 100px 0;
+background-color: #f8f8f8;
+text-align: center;
+}
+
+#about-me h1 {
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+#about-me p {
+font-size: 24px;
+line-height: 1.5;
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* 작업물 섹션 스타일 */
+#my-works {
+padding: 100px 0;
+text-align: center;
+}
+
+#my-works h2 {
+font-size: 36px;
+margin-bottom: 50px;
+}
+
+#my-works ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+#my-works li {
+margin: 0 20px;
+max-width: 400px;
+text-align: left;
+}
+
+#my-works h3 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+#my-works p {
+font-size: 18px;
+line-height: 1.5;
+}
+
+/* 연락처 섹션 스타일 */
+#contact {
+padding: 100px 0;
+text-align: center;
+}
+
+#contact h2 {
+font-size: 36px;
+margin-bottom: 50px;
+}
+
+#contact ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+#contact li {
+margin-right: 20px;
+}
+
+#contact li:last-child {
+margin-right: 0;
+}
